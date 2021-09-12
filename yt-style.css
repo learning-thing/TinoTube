@@ -216,7 +216,7 @@ ytd-app {
     min-height: 100%;
     position: absolute;
     right: 0;
-    top: -74px; /*gets rid of  spacing -74 makes it look cooler, but brakes in fullscreen*/
+    top: 0px; /*gets rid of  spacing -74 makes it look cooler, but brakes in fullscreen*/
 }
 
 
