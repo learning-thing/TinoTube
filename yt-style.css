@@ -67,8 +67,7 @@ Search box
     transition-property: all;
     transition-duration: 0.6s;
     filter: blur(0.8px);
-    border-radius: 2px;
-    transition-delay: 3s;
+    transition-delay: 1s;
     
 
 }
@@ -81,8 +80,7 @@ Search box
     
     transition-property: all;
     transition-duration: 0.09s;
-    /*height: 30px;*/
-    background-color:rgba(255, 255, 255, 0.5);
+    background-color:rgba(71, 71, 71, 0.5);
     filter: blur(0px);
 }
 
@@ -127,7 +125,7 @@ yt-chip-cloud-chip-renderer.ytd-feed-filter-chip-bar-renderer:first-of-type {
 /* sub button */
 tp-yt-paper-button.ytd-subscribe-button-renderer[subscribed] {
     background-color: var(--yt-spec-badge-chip-background);
-    color: #22abcb;
+    color: #004688;
 }
 
 /* Bell Notification symbol */
@@ -206,39 +204,5 @@ html:not(.style-scope)[dark], :not(.style-scope)[dark] {
 
 
 
-/*Main body format (doesnt do much actually)*/
-ytd-app {
-    --app-drawer-width: 240px;
-    --app-drawer-content-container_-_background-color: var(--yt-spec-general-background-a);
-    background: var(--yt-spec-general-background-a);
-    display: block;
-    left: 0;
-    min-height: 100%;
-    position: absolute;
-    right: 0;
-    top: 0px; /*gets rid of  spacing -74 makes it look cooler, but brakes in fullscreen*/
-}
 
-
-
-/*Video player*/
-.html5-video-player {
-    position: relative;
-    width: 100%;
-    height: 100%; /*fixes fullscreen with -74px top removed fullscreen*/
-    overflow: hidden;
-    z-index: 0;
-    outline: 0;
-    font-family: "YouTube Noto",Roboto,Arial,Helvetica,sans-serif;
-    color: #eee;
-    text-align: left;
-    direction: ltr;
-    font-size: 11px;
-    line-height: 1.3;
-    -webkit-font-smoothing: antialiased;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    -ms-high-contrast-adjust: none;
-}
 
