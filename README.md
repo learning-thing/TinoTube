@@ -1,7 +1,7 @@
 # TinoTube
 Css overwrite for youtube
 
-![example image](tinotube.png)
+![example image](TINTUBE.png)
 
 
 # What this is
