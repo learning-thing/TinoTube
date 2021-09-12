@@ -13,4 +13,7 @@ simplest way is to get an extension that lets you use costum css, for example [S
  - use the issues tab
 
 
-
+# I am not professionell
+This may take a while until it looks good,
+it may brake something like fullscreen a bit.
+if you know how to fix something Please tell me.
