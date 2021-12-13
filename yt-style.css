@@ -14,6 +14,8 @@
     -ms-flex-pack: justify;
     -webkit-justify-content: space-between;
     justify-content: space-between;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 5px 0 ;
 }
 
 
@@ -65,7 +67,8 @@ Search box
     transition: all;
     transition-property: all;
     transition-duration: 0.6s;
-    filter: blur(0.8px);
+    filter: blur(0.5px);
+    backdrop-filter: blur(1px);
     transition-delay: 1s;
 
 }
@@ -195,7 +198,51 @@ img.yt-img-shadow:hover {
 
 /* Sidebar and stuff */
 html:not(.style-scope)[dark], :not(.style-scope)[dark] {
-    --yt-spec-brand-background-solid: #09071394; /*Main sidebar color*/
+    --yt-spec-brand-background-solid: #0907135e; /*Main sidebar color*/
     --yt-spec-brand-background-primary: rgba(33, 33, 33, 0.98);
     --yt-spec-brand-background-secondary: rgba(33, 33, 33, 0.95);
 }
+
+ytd-multi-page-menu-renderer.style-scope.ytd-popup-container {
+  border-radius: 30px;
+  color: transparent;
+  background-color: transparent;
+  backdrop-filter: blur(16px);
+
+  
+}
+
+yt-icon-button.style-scope.ytd-button-renderer.style-default.size-default {
+  background-color: transparent;
+  
+}
+
+button.style-scope.ytd-searchbox {
+  background-color: transparent;
+  backdrop-filter: blur(15px);
+  box-shadow: 0px 1px 1px 0px;
+}
+
+div.style-scope.ytd-searchbox {
+  backdrop-filter: blur(20px);
+}
+
+video.video-stream.html5-main-video {
+  border-radius: 10px;
+  color: transparent;
+  background-color: transparent;
+  filter: blur(10px);
+  transition: all;
+  transition-duration: 1s;
+}
+
+video.video-stream.html5-main-video:hover {
+  border-radius: 10px;
+  color: transparent;
+  background-color: transparent;
+  filter: blur(0px);
+  transition: all;
+  transition-duration: 1s;
+}
+
+
